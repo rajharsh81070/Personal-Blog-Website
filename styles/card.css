@@ -1,0 +1,45 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px 60px;
+  margin: 35px 25px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 320px;
+  height: 675px;
+  padding-bottom: 30px;
+  text-align: center;
+  border: 5px solid #555;
+  border-radius: 5px;
+  background-color: #7ac;
+  text-decoration: none;
+  align-content: center;
+}
+
+.column {
+  padding: 20px 50px;
+}
+
+.card-image img {
+  width: 275px;
+  height: 215px;
+}
+
+.btn-viewmore {
+  background: #225;
+  border: 2px solid #114;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}

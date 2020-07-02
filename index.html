@@ -2,13 +2,81 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Blog Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Blog Website</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="styles/main.css">
+	<script src="https://kit.fontawesome.com/626e109417.js"></script>
 </head>
 
 <body>
-
+	<header>
+		<nav class="navbar">
+			<div class="left">
+				<a class="menu" href="index.html">Home</a>
+				<a class="menu" href="blog.html">About</a>
+				<a class="menu" href="#blog">Blog</a>
+			</div>
+		</nav>
+	</header>
+	<div id="banner">
+		<h1>Welcome to My Blog</h1>
+	</div><br>
+	<main>
+		<h2 class="section-heading" id="blog">Blog</h2>
+		<section>
+			<div class="grid-container">
+				<div class="column">
+					<div class="card">
+						<div class="card-image"><img alt="canary island image" src="https://i.imgur.com/7qsIE1A.jpg">
+						</div>
+						<div class="card-description">
+							<h3>Canary Islands</h3>
+							<p>Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Hic ducimus magni perspiciatis necessitatibus corporis cumque! Aperiam
+								facere at, reprehenderit nisi est minima recusandae ad quod et quos nam porro assumenda.
+							</p><a href="blog.html"><button class="btn-viewmore">View
+									More</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<div class="card-image"><img alt="hawaii image" src="https://i.imgur.com/w0e7IiB.jpg"></div>
+						<div class="card-description">
+							<h3>Aloha</h3>
+							<p>Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Hic ducimus magni perspiciatis necessitatibus corporis cumque! Aperiam
+								facere at, reprehenderit nisi est minima recusandae ad quod et quos nam porro assumenda.
+							</p><a href="blog.html"><button class="btn-viewmore">View
+									More</button></a>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<div class="card-image"><img alt="sunset image" src="https://i.imgur.com/5gDZjSh.jpg"></div>
+						<div class="card-description">
+							<h3>Watching the Sunset</h3>
+							<p>Lorem ipsum dolor sit amet consectetur
+								adipisicing elit. Hic ducimus magni perspiciatis necessitatibus corporis cumque! Aperiam
+								facere at, reprehenderit nisi est minima recusandae ad quod et quos nam porro assumenda.
+							</p><a href="blog.html"><button class="btn-viewmore">View
+									More</button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<p><em><strong>Made with <i class="fa fa-heartbeat"></i> by Harsh Raj
+						&copy; 2020</strong></em><strong></strong></p>
+		</div>
+	</footer>
 </body>
 
 </html>
